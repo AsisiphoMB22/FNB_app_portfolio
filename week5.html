@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Week 5 - Bootcamp Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap">
+</head>
+<body>
+  <header>
+    <h1>Week 5 Highlights</h1>
+    <div class="top-buttons">
+      <a href="index.html#week5" class="btn">← Back to Portfolio</a>
+
+    </div>
+  </header>
+
+  <main class="week-details">
+    <section class="week-section">
+      <h2>Calculator App</h2>
+      <video width="990" height="500" controls>
+        <source src="videos/calculator.vid.mp4" type="video/mp4">
+        <source src="videos.webm" type="video/webm">
+         Your browser does not support the video tag.
+      </video>
+      <p>
+        This week, we put JavaScript fundamentals skills to the test, which gave us the necessary skills for this week's project. The task was to create a fully functional calculator app using these concepts. It was smooth sailing, thanks to the IT varsity lectures. Any challenge was visible using console.log statements to debug my code.
+      </p>
+      <p>
+        This experience helped me improve my understanding of debugging techniques and the importance of user feedback in the development process. Overall, it was a productive and foundational week.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Connect with me:</p>
+    <a href="https://github.com/AsisiphoMB22" target="_blank">
+      <i class="fab fa-github"></i> GitHub
+    </a> 
+    <span>|</span>
+    <a href="https://www.linkedin.com/in/asisipho-mbobo-318b63231/" target="_blank">
+      <i class="fab fa-linkedin"></i> LinkedIn
+    </a>
+    <p>asisiphombobo40@gmail.com</p>
+    <p>&copy; 2025 Asisipho Mbobo</p>
+  </footer>
+
+  <div class="theme-toggle">
+    <label>
+      <input type="checkbox" id="theme-switch" />
+      Toggle Dark Mode
+    </label>
+  </div>
+
+  <script>
+    document.getElementById("theme-switch").addEventListener("change", function () {
+      document.body.classList.toggle("dark");
+    });
+  </script>
+</body>
+</html>

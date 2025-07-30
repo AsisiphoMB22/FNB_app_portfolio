@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Week 9 - Bootcamp Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap">
+</head>
+<body>
+  <header>
+    <h1>Week 9 Highlights</h1>
+    <div class="top-buttons">
+      <a href="index.html#week9" class="btn">← Back to Portfolio</a>
+    </div>
+  </header>
+
+  <main class="week-details">
+    <section class="week-section">
+      <h2>The final week</h2>
+      <video width="990" height="500" controls>
+        <source src="videos/week9.vid.mp4" type="video/mp4">
+        <source src="videos.webm" type="video/webm">
+         Your browser does not support the video tag.
+      </video>
+      <p>
+        We continued from last week and got into functions, modules, and exception handling in Python. The task was to create a final project that integrates all the skills learned throughout the bootcamp.
+      </p>
+      <p>
+        This experience helped me improve my understanding of Python programming and software development practices. Overall, it was a productive and foundational week.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Connect with me:</p>
+    <a href="https://github.com/AsisiphoMB22" target="_blank">
+      <i class="fab fa-github"></i> GitHub
+    </a> |
+    <a href="https://www.linkedin.com/in/asisipho-mbobo-318b63231/" target="_blank">
+      <i class="fab fa-linkedin"></i> LinkedIn
+    </a>
+    <p>asisiphombobo40@gmail.com</p>
+    <p>&copy; 2025 Asisipho Mbobo</p>
+  </footer>
+
+  <div class="theme-toggle">
+    <label>
+      <input type="checkbox" id="theme-switch" />
+      Toggle Dark Mode
+    </label>
+  </div>
+
+  <script>
+    document.getElementById("theme-switch").addEventListener("change", function () {
+      document.body.classList.toggle("dark");
+    });
+  </script>
+</body>
+</html>

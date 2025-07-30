@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Curriculum - Bootcamp Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap">
+
+</head>
+<body>
+  <header>
+    <h1>Bootcamp Curriculum</h1>
+    <div class="top-buttons">
+      <a href="index.html" class="btn">← Back to Portfolio</a>
+    </div>
+  </header>
+
+  <main class="curriculum-section">
+    <section>
+      <p>
+        Here's a breakdown of the modules and topics covered during the bootcamp:
+      </p>
+      <ul>
+        <h2>Beginner Level</h2>
+        <li>Tuesday, May 6: Orientation</li>
+        <li>Friday, May 9 : App Strategies(Platform, native etc)</li>
+        <li>Tuesday, May 13: Github and Collaboration</li>
+        <li>Friday, May 16: Build an App with HTML (The SDLC)</li>
+        <li>Tuesday, May 20: Principles of UX design + Basic layouts + Transactions</li>
+        <li>Friday, May 23: Feedback and Q&A</li>
+        <h2>Intermediate Level</h2>
+        <li>Tuesday, May 27: Design Thinking</li>
+        <li>Friday, May 30: API's + Data Input + Processing</li>
+        <li>Tuesday, June 3: User Centric App Development</li>
+        <li>Friday, June 6: Data Management and Analysis</li>
+        <li>Tuesday, June 10: Business Development</li>
+        <li>Friday, June 13: Feedback and Q&A</li>
+        <h2>Advanced Skills</h2>
+        <li>Tuesday, June 17: Backend Development Intro</li>
+        <li>Friday, June 20: Backend Development (Build an API)</li>
+        <li>Tuesday, June 24: AI in Development</li>
+        <li>Friday, June 27: Business Funding</li>
+        <li>Tuesday, July 1: Marketing your App Business</li>
+        <li>Friday, July 4: Feedback and Q&A</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Connect with me:</p>
+    <a href="https://github.com/AsisiphoMB22" target="_blank">
+      <i class="fab fa-github"></i> GitHub
+    </a> |
+    <a href="https://www.linkedin.com/in/asisipho-mbobo-318b63231/" target="_blank">
+      <i class="fab fa-linkedin"></i> LinkedIn
+    </a>
+    <p>asisiphombobo40@gmail.com</p>
+    <p>&copy; 2025 Asisipho Mbobo</p>
+  </footer>
+
+  <div class="theme-toggle">
+    <label>
+      <input type="checkbox" id="theme-switch" />
+      Toggle Dark Mode
+    </label>
+  </div>
+
+  <script>
+    document.getElementById("theme-switch").addEventListener("change", function () {
+      document.body.classList.toggle("dark");
+    });
+  </script>
+</body>
+</html>

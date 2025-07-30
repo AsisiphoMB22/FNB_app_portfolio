@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Week 4 - Bootcamp Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap">
+
+</head>
+<body>
+  <header>
+    <h1>Week 4 Highlights</h1>
+    <div class="top-buttons">
+      <a href="index.html#week4" class="btn">← Back to Portfolio</a>
+    </div>
+  </header>
+
+  <main class="week-details">
+    <section class="week-section">
+      <h2>Javascript Basics</h2>
+      <video width="990" height="500" controls>
+        <source src="videos/login&weather.vid.mp4" type="video/mp4">
+        <source src="videos.webm" type="video/webm">
+         Your browser does not support the video tag.
+      </video>
+      <p>
+        This week, I learned and applied Javascript fundamentals, including variables, data types, and control structures. The task was to create a simple interactive, login webpage using these concepts and a weather advice feature. Any challenges faced with debugging the code were overcame by using console.log statements to track down errors.
+      </p>
+      <p>
+        We also dived into design thinking and APIs, User Input and Data Processing. Overall, it was a productive and foundational week.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Connect with me:</p>
+    <a href="https://github.com/AsisiphoMB22" target="_blank">
+      <i class="fab fa-github"></i> GitHub
+    </a> |
+    <a href="https://www.linkedin.com/in/asisipho-mbobo-318b63231/" target="_blank">
+      <i class="fab fa-linkedin"></i> LinkedIn
+    </a>
+    <p>asisiphombobo40@gmail.com</p>
+    <p>&copy; 2025 Asisipho Mbobo</p>
+  </footer>
+
+  <div class="theme-toggle">
+    <label>
+      <input type="checkbox" id="theme-switch" />
+      Toggle Dark Mode
+    </label>
+  </div>
+
+  <script>
+    document.getElementById("theme-switch").addEventListener("change", function () {
+      document.body.classList.toggle("dark");
+    });
+  </script>
+</body>
+</html>

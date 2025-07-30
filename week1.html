@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Week 1 - Bootcamp Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap">
+
+</head>
+<body>
+  <header>
+    <h1>Week 1 Highlights</h1>
+    <div class="top-buttons">
+      <a href="index.html#week1" class="btn">← Back to Portfolio</a>
+    </div>
+  </header>
+
+  <main class="week-details">
+    <section class="week-section">
+      <h2>Introduction to HTML.</h2>
+      <video width="990" height="500" controls>
+        <source src="videos/html.vid.mp4" type="video/mp4">
+        <source src="videos.webm" type="video/webm">
+         Your browser does not support the video tag.
+      </video>
+      <p>
+        This week, I learned and applied key skills in <b>HTML5</b>, including the structure of web pages and the use of various HTML elements. The task was to create a simple webpage using these elements. I overcame challenges by consulting the documentation and video lessons. This experience helped me improve my understanding of web development fundamentals. Overall, it was a productive and foundational week.
+      </p>
+      <p>
+        We were also introduced to: <b><br>App strategies</br><br> Github and Collaboration</br><br> SDLC</br><br> principles of UX design.</br></b>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Connect with me:</p>
+    <a href="https://github.com/AsisiphoMB22" target="_blank">
+      <i class="fab fa-github"></i> GitHub
+    </a> |
+    <a href="https://www.linkedin.com/in/asisipho-mbobo-318b63231/" target="_blank">
+      <i class="fab fa-linkedin"></i> LinkedIn
+    </a>
+    <p>asisiphombobo40@gmail.com</p>
+    <p>&copy; 2025 Asisipho Mbobo</p>
+  </footer>
+
+  <div class="theme-toggle">
+    <label>
+      <input type="checkbox" id="theme-switch" />
+      Toggle Dark Mode
+    </label>
+  </div>
+
+  <script>
+    document.getElementById("theme-switch").addEventListener("change", function () {
+      document.body.classList.toggle("dark");
+    });
+  </script>
+</body>
+</html>
